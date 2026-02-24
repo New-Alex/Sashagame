@@ -193,32 +193,6 @@ function AppContent() {
                   <Gamepad2 className="w-12 h-12 text-violet-500 group-hover:animate-pulse" />
                   <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-400 text-2xl">SashaGame</span>
                 </Link>
-
-                {/* Social Links - Center */}
-                <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-20 flex items-center gap-3">
-                  <a
-                    href="https://t.me/cawa079"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center justify-center w-10 h-10 rounded-full bg-white/5 border border-white/10 text-gray-400 hover:text-[#0088cc] hover:border-[#0088cc]/50 hover:bg-[#0088cc]/10 transition-all hover:scale-110"
-                    title="Telegram"
-                  >
-                    <svg viewBox="0 0 24 24" className="w-5 h-5 fill-current">
-                      <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.562 8.161c-.18.717-.962 4.084-1.362 5.411-.168.56-.505 1.247-1.111 1.362-.656.125-1.431-.252-2.022-.614-1.226-.75-1.92-1.214-3.102-1.984-1.353-.882-.476-1.367.15-2.016.164-.17 3.016-2.766 3.072-3.001.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.254-.243-1.868-.44-.752-.243-1.349-.374-1.297-.789.027-.216.325-.437.893-.666 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635.099-.002.321.023.465.14.12.098.152.228.166.331.016.117.033.359.014.527z" />
-                    </svg>
-                  </a>
-                  <a
-                    href="https://www.youtube.com/channel/UCwTRciuTuKvBucdsaavjdsA"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center justify-center w-10 h-10 rounded-full bg-white/5 border border-white/10 text-gray-400 hover:text-[#FF0000] hover:border-[#FF0000]/50 hover:bg-[#FF0000]/10 transition-all hover:scale-110"
-                    title="YouTube @cawa079"
-                  >
-                    <svg viewBox="0 0 24 24" className="w-5 h-5 fill-current">
-                      <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
-                    </svg>
-                  </a>
-                </div>
               </div>
 
               {/* Right Side: Real Angel with Opening Wings (Image Reveal) */}

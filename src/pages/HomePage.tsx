@@ -139,10 +139,22 @@ export default function HomePage() {
               {t.hero.ctaProjects}
             </a>
             <div className="flex gap-3">
-              <a href="#" className="p-4 rounded-xl bg-[#FF0000]/10 border border-[#FF0000]/20 text-[#FF0000] hover:bg-[#FF0000]/20 hover:scale-105 transition-all" title="YouTube">
+              <a
+                href="https://www.youtube.com/channel/UCwTRciuTuKvBucdsaavjdsA"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="p-4 rounded-xl bg-[#FF0000]/10 border border-[#FF0000]/20 text-[#FF0000] hover:bg-[#FF0000]/20 hover:scale-105 transition-all"
+                title="YouTube @cawa079"
+              >
                 <Youtube className="w-6 h-6" />
               </a>
-              <a href="#" className="p-4 rounded-xl bg-[#0088cc]/10 border border-[#0088cc]/20 text-[#0088cc] hover:bg-[#0088cc]/20 hover:scale-105 transition-all" title="Telegram">
+              <a
+                href="https://t.me/cawa079"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="p-4 rounded-xl bg-[#0088cc]/10 border border-[#0088cc]/20 text-[#0088cc] hover:bg-[#0088cc]/20 hover:scale-105 transition-all"
+                title="Telegram"
+              >
                 <Send className="w-6 h-6" />
               </a>
             </div>
